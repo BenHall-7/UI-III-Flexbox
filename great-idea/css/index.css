@@ -64,3 +64,133 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+    padding: 0 5%;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.large {
+    font-size: 500%;
+    letter-spacing: 4px;
+}
+
+.button-style {
+    border: 1px solid black;
+    color: black;
+    padding: 4px 40px;
+}
+
+@keyframes nav-anim {
+    to {
+        text-shadow: 0 0 2px #800000C0;
+    }
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+#header-top {
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 90%;
+    background: #FFFFFFC0
+}
+
+#header-top nav {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 75%;
+}
+
+#header-top .image-container {
+    width: 25%;
+}
+
+#header-top nav a {
+    margin-right: 10%;
+    width: 5%;
+}
+
+#header-top nav a:hover {
+    animation-name: nav-anim;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#header-bottom {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#header-bottom div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: initial;
+}
+
+#header-bottom .image-container {
+    margin-left: 8%;
+}
+
+.two-col div {
+    display: inline-block;
+    width: 48%;
+    margin-left: 4%;
+}
+
+.two-col .first-col {
+    margin: 0;
+}
+
+.middle-img {
+    margin: 40px 0;
+    max-width: 100%;
+}
+
+.three-col div {
+    display: inline-block;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.three-col .first-col {
+    margin: 0;
+}
+
+.two-col p, .three-col p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+}
+
+address {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 1px solid black;
+    padding-top: 60px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 60px;
+}
