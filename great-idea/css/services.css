@@ -73,6 +73,22 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
+p, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: square;
+    list-style-position: inside;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -88,9 +104,13 @@ a:hover {
 }
 
 .button-style {
+    display: inline-block;
     border: 1px solid black;
     color: black;
     padding: 4px 40px;
+    border-radius: 4px;
+    background: white;
+    margin-top: 20px;
 }
 
 @keyframes nav-anim {
@@ -136,60 +156,50 @@ header nav a:hover {
 }
 
 #header-bottom {
-	display: flex;
-	justify-content: center;
-	align-items: center;
     padding-top: 100px;
     padding-bottom: 60px;
-    text-align: center;
     border-bottom: 1px solid black;
 }
 
-#header-bottom div {
-    vertical-align: middle;
+#header-bottom h1 {
+    margin-top: 20px;
 }
 
-#header-bottom .image-container {
-    margin-left: 8%;
-}
-
-#middle {
-    margin-top:  60px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.column {
-	display: flex;
-}
-
-.column div {
-	margin-left: 10px;
-}
-
-.column .first-col {
-	margin: 0
-}
-
-.column p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.1em;
-}
-
-.middle-img {
-    margin: 40px 0;
+.services-header-img {
     max-width: 100%;
 }
 
-address {
+#middle {
     margin-top: 60px;
     margin-bottom: 40px;
-    border-top: 1px solid black;
-    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+#middle div {
+    background: #f0f0f0;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    min-width: 420px;
+    max-width: 48%;
+}
+
+#bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#bottom * {
+    min-width: 420px;
+    max-width: 48%;
 }
 
 footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-bottom: 60px;
 }
