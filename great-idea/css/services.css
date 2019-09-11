@@ -193,7 +193,7 @@ header nav a:hover {
     justify-content: space-between;
 }
 
-#bottom * {
+#bottom div, #bottom img {
     min-width: 420px;
     max-width: 48%;
 }
