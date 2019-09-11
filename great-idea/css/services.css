@@ -174,7 +174,7 @@ header nav a:hover {
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 2px solid black;
 }
 
@@ -190,7 +190,7 @@ header nav a:hover {
 #bottom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #bottom * {
